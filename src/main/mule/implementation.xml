@@ -68,6 +68,5 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 	</flow>
 	<flow name="postFlight" doc:id="a56e4761-b642-4637-ac9a-973b62f95ff9" >
 		<set-payload value='{"message": "Flight added (but not really"}' doc:name="Set Payload" doc:id="4ec081ed-b023-4594-b42e-2691217fe738" />
-		<logger level="INFO" doc:name="justalogger" doc:id="f17bfeff-a4b4-4039-8ac3-8209184b8852" />
 	</flow>
 </mule>
