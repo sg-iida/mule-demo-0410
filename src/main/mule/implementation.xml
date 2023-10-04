@@ -67,6 +67,6 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 		</ee:transform>
 	</flow>
 	<flow name="postFlight" doc:id="a56e4761-b642-4637-ac9a-973b62f95ff9" >
-		<set-payload value='{"message": "Flight added (but not really"}' doc:name="Flight added but nit really" doc:id="4ec081ed-b023-4594-b42e-2691217fe738" />
+		<set-payload value='{"message": "Flight added (but not really"}' doc:name="Flight added but not really" doc:id="4ec081ed-b023-4594-b42e-2691217fe738" />
 	</flow>
 </mule>
